@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background: #8A51FC;
+}
+
+.img-logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    width: 375px;
+    height: 712px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+select, input {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555;
+    appearance: none;
+}
+
+
+button {
+    width: 327px;
+    height: 48px;
+    line-height: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 5px;
+    background: #772FD3;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.result {
+    width: 327px;
+    height: 276px;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    position: absolute; 
+    top: 83%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.currency-value-to-convert, .currency-value {
+    text-align: center;
+    background: #F4F4F4; 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555;
+}
+
+#bandeira1 {
+    padding: 6px 0 0 136px;
+}
+
+#bandeira2 {
+    padding: 6px 0 0 136px;
+}
+
+#indicador {
+    padding: 15px 0 0 146px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+    color: #777;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+    color: #777;
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        margin: 50px auto;
+        padding: 24px auto;
+    }
+
+    .img-logo{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .result{
+        margin: -110px auto;
+    }
+}
