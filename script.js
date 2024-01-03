@@ -9,7 +9,6 @@ const convertValues = async ()  =>{
     const currencyValueConverted = document.querySelector(".currency-value")
 
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
-    console.log(data)
     
     const dolarToday = data.USDBRL.ask
     const euroToday = data.EURBRL.ask

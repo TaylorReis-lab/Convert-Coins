@@ -17,7 +17,7 @@ body {
     margin: 20px auto;
 }
 
-.container {
+.container, result {
     width: 375px;
     height: 712px;
     border-radius: 20px;
